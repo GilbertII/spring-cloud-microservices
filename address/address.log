@@ -1,0 +1,255 @@
+2022-09-05 01:55:10.649  INFO 11164 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 01:55:10.679  INFO 11164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 01:55:10.696  INFO 11164 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 01:56:08.513  INFO 16564 --- [main] c.g.address.api.AddressApplication       : Starting AddressApplication using Java 1.8.0_144 on WISER with PID 16564 (C:\Users\gilbe_000\Desktop\spring-cloude\address\target\classes started by Wiser in C:\Users\gilbe_000\Desktop\spring-cloude\address)
+2022-09-05 01:56:08.553  INFO 16564 --- [main] c.g.address.api.AddressApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-05 01:56:09.204  INFO 16564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-05 01:56:09.264  INFO 16564 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-09-05 01:56:10.388  INFO 16564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-05 01:56:10.403  INFO 16564 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-05 01:56:10.403  INFO 16564 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 01:56:10.646  INFO 16564 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-05 01:56:10.647  INFO 16564 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2020 ms
+2022-09-05 01:56:10.791  INFO 16564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-05 01:56:11.345  INFO 16564 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-05 01:56:11.408  INFO 16564 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 01:56:11.481  INFO 16564 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 01:56:11.754  INFO 16564 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 01:56:11.902  INFO 16564 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-09-05 01:56:12.572  INFO 16564 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 01:56:12.589  INFO 16564 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 01:56:13.256  WARN 16564 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-05 01:56:13.578  INFO 16564 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-05 01:56:13.590  INFO 16564 --- [main] c.g.address.api.AddressApplication       : Started AddressApplication in 5.686 seconds (JVM running for 6.32)
+2022-09-05 01:58:06.428  INFO 16564 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 01:58:06.428  INFO 16564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-05 01:58:06.429  INFO 16564 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-05 02:10:19.076  INFO 16564 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 02:10:19.078  INFO 16564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 02:10:19.089  INFO 16564 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 02:10:25.978  INFO 22972 --- [main] c.g.address.api.AddressApplication       : Starting AddressApplication using Java 1.8.0_144 on WISER with PID 22972 (C:\Users\gilbe_000\Desktop\spring-cloude\address\target\classes started by Wiser in C:\Users\gilbe_000\Desktop\spring-cloude\address)
+2022-09-05 02:10:25.982  INFO 22972 --- [main] c.g.address.api.AddressApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-05 02:10:26.667  INFO 22972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-05 02:10:26.729  INFO 22972 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2022-09-05 02:10:27.808  INFO 22972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-05 02:10:27.824  INFO 22972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-05 02:10:27.825  INFO 22972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 02:10:28.090  INFO 22972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-05 02:10:28.090  INFO 22972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2040 ms
+2022-09-05 02:10:28.240  INFO 22972 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-05 02:10:28.788  INFO 22972 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-05 02:10:28.851  INFO 22972 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 02:10:28.928  INFO 22972 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 02:10:29.204  INFO 22972 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 02:10:29.354  INFO 22972 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-09-05 02:10:30.045  INFO 22972 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 02:10:30.064  INFO 22972 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 02:10:30.681  WARN 22972 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-05 02:10:31.012  INFO 22972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-05 02:10:31.022  INFO 22972 --- [main] c.g.address.api.AddressApplication       : Started AddressApplication in 5.627 seconds (JVM running for 6.261)
+2022-09-05 02:10:40.578  INFO 22972 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 02:10:40.578  INFO 22972 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-05 02:10:40.579  INFO 22972 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-05 02:15:50.659  INFO 22972 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 02:15:50.662  INFO 22972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 02:15:50.672  INFO 22972 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 03:03:26.459  INFO 2940 --- [main] c.g.address.api.AddressApplication       : Starting AddressApplication using Java 1.8.0_144 on WISER with PID 2940 (C:\Users\gilbe_000\Desktop\spring-cloude\address\target\classes started by Wiser in C:\Users\gilbe_000\Desktop\spring-cloude\address)
+2022-09-05 03:03:26.465  INFO 2940 --- [main] c.g.address.api.AddressApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-05 03:03:27.746  INFO 2940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-05 03:03:28.050  INFO 2940 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 281 ms. Found 1 JPA repository interfaces.
+2022-09-05 03:03:28.576  INFO 2940 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=279f3dab-4d7d-3a84-a082-b61520965207
+2022-09-05 03:03:29.335  INFO 2940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-05 03:03:29.347  INFO 2940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-05 03:03:29.348  INFO 2940 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 03:03:29.583  INFO 2940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-05 03:03:29.584  INFO 2940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3037 ms
+2022-09-05 03:03:29.749  INFO 2940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-05 03:03:30.354  INFO 2940 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-05 03:03:30.417  INFO 2940 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 03:03:30.493  INFO 2940 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 03:03:30.775  INFO 2940 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 03:03:30.916  INFO 2940 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-09-05 03:03:31.573  INFO 2940 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 03:03:31.584  INFO 2940 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 03:03:32.319  WARN 2940 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-05 03:03:32.981  INFO 2940 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-05 03:03:33.353  WARN 2940 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-05 03:03:33.379  INFO 2940 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-05 03:03:33.470  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-05 03:03:33.478  INFO 2940 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:03:33.515  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-05 03:03:33.515  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-05 03:03:33.515  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-05 03:03:33.515  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-05 03:03:33.516  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-05 03:03:33.516  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-05 03:03:33.516  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-05 03:03:33.990  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-05 03:03:33.993  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-05 03:03:33.996  INFO 2940 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-05 03:03:34.002  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1662318214001 with initial instances count: 0
+2022-09-05 03:03:34.004  INFO 2940 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADDRESS-SERVICE with eureka with status UP
+2022-09-05 03:03:34.005  INFO 2940 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662318214005, current=UP, previous=STARTING]
+2022-09-05 03:03:34.008  INFO 2940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 03:03:34.049  INFO 2940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-05 03:03:34.050  INFO 2940 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2022-09-05 03:03:34.191  INFO 2940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 03:03:34.331  INFO 2940 --- [main] c.g.address.api.AddressApplication       : Started AddressApplication in 8.743 seconds (JVM running for 9.789)
+2022-09-05 03:04:03.995  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-05 03:04:03.997  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-05 03:04:03.998  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-05 03:04:03.998  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-05 03:04:03.998  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-05 03:04:03.999  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-05 03:04:04.000  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-05 03:04:04.046  INFO 2940 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-05 03:05:00.320  INFO 2940 --- [http-nio-8081-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 03:05:00.320  INFO 2940 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-05 03:05:00.322  INFO 2940 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-05 03:07:38.915  INFO 2940 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADDRESS-SERVICE with eureka with status DOWN
+2022-09-05 03:07:38.915  INFO 2940 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662318458915, current=DOWN, previous=UP]
+2022-09-05 03:07:38.916  INFO 2940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 03:07:38.929  INFO 2940 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 03:07:39.109  INFO 2940 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 03:07:39.113  INFO 2940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 03:07:39.133  INFO 2940 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 03:07:39.135  INFO 2940 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-05 03:07:42.156  INFO 2940 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-05 03:07:42.172  INFO 2940 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - deregister  status: 200
+2022-09-05 03:07:42.184  INFO 2940 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-09-05 03:10:27.242  INFO 19624 --- [main] c.g.address.api.AddressApplication       : Starting AddressApplication using Java 1.8.0_144 on WISER with PID 19624 (C:\Users\gilbe_000\Desktop\spring-cloude\address\target\classes started by Wiser in C:\Users\gilbe_000\Desktop\spring-cloude\address)
+2022-09-05 03:10:27.247  INFO 19624 --- [main] c.g.address.api.AddressApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-05 03:10:28.068  INFO 19624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-05 03:10:28.304  INFO 19624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 221 ms. Found 1 JPA repository interfaces.
+2022-09-05 03:10:28.846  INFO 19624 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=279f3dab-4d7d-3a84-a082-b61520965207
+2022-09-05 03:10:29.620  INFO 19624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-05 03:10:29.633  INFO 19624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-05 03:10:29.633  INFO 19624 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 03:10:29.884  INFO 19624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-05 03:10:29.884  INFO 19624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2549 ms
+2022-09-05 03:10:30.038  INFO 19624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-05 03:10:30.565  INFO 19624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-05 03:10:30.631  INFO 19624 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 03:10:30.738  INFO 19624 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 03:10:31.062  INFO 19624 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 03:10:31.207  INFO 19624 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-09-05 03:10:31.894  INFO 19624 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 03:10:31.906  INFO 19624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 03:10:32.843  WARN 19624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-05 03:10:34.151  INFO 19624 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-05 03:10:35.080  WARN 19624 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-05 03:10:35.251  INFO 19624 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-05 03:10:35.552  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-05 03:10:35.577  INFO 19624 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:10:35.618  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-05 03:10:35.619  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-05 03:10:35.619  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-05 03:10:35.619  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-05 03:10:35.619  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-05 03:10:35.619  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-05 03:10:35.620  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-05 03:10:36.097  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-05 03:10:36.100  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-05 03:10:36.104  INFO 19624 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-05 03:10:36.111  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1662318636109 with initial instances count: 0
+2022-09-05 03:10:36.113  INFO 19624 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADDRESS-SERVICE with eureka with status UP
+2022-09-05 03:10:36.114  INFO 19624 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662318636114, current=UP, previous=STARTING]
+2022-09-05 03:10:36.123  INFO 19624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 03:10:36.162  INFO 19624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-05 03:10:36.163  INFO 19624 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2022-09-05 03:10:36.449  INFO 19624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 03:10:36.553  INFO 19624 --- [main] c.g.address.api.AddressApplication       : Started AddressApplication in 10.189 seconds (JVM running for 10.97)
+2022-09-05 03:11:06.114  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-05 03:11:06.115  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-05 03:11:06.116  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-05 03:11:06.117  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-05 03:11:06.117  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-05 03:11:06.117  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2022-09-05 03:11:06.118  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-05 03:11:06.149  INFO 19624 --- [DiscoveryClient-CacheRefreshExecutor-0] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-05 03:11:57.354  INFO 19624 --- [http-nio-8081-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 03:11:57.354  INFO 19624 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-05 03:11:57.357  INFO 19624 --- [http-nio-8081-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-09-05 03:15:35.630  INFO 19624 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:16:02.053  INFO 19624 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADDRESS-SERVICE with eureka with status DOWN
+2022-09-05 03:16:02.053  INFO 19624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662318962053, current=DOWN, previous=UP]
+2022-09-05 03:16:02.054  INFO 19624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 03:16:02.064  INFO 19624 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 03:16:02.236  INFO 19624 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 03:16:02.241  INFO 19624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 03:16:02.262  INFO 19624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 03:16:02.263  INFO 19624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-05 03:16:05.272  INFO 19624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-05 03:16:05.289  INFO 19624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - deregister  status: 200
+2022-09-05 03:16:05.296  INFO 19624 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-09-05 03:16:15.119  INFO 2400 --- [main] c.g.address.api.AddressApplication       : Starting AddressApplication using Java 1.8.0_144 on WISER with PID 2400 (C:\Users\gilbe_000\Desktop\spring-cloude\address\target\classes started by Wiser in C:\Users\gilbe_000\Desktop\spring-cloude\address)
+2022-09-05 03:16:15.122  INFO 2400 --- [main] c.g.address.api.AddressApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-09-05 03:16:16.132  INFO 2400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-05 03:16:16.389  INFO 2400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 1 JPA repository interfaces.
+2022-09-05 03:16:17.011  INFO 2400 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=279f3dab-4d7d-3a84-a082-b61520965207
+2022-09-05 03:16:17.857  INFO 2400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-09-05 03:16:17.870  INFO 2400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-05 03:16:17.870  INFO 2400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-05 03:16:18.186  INFO 2400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-05 03:16:18.189  INFO 2400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2976 ms
+2022-09-05 03:16:18.420  INFO 2400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-05 03:16:19.047  INFO 2400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-05 03:16:19.111  INFO 2400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-05 03:16:19.184  INFO 2400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-05 03:16:19.565  INFO 2400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-05 03:16:19.711  INFO 2400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2022-09-05 03:16:20.572  INFO 2400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-05 03:16:20.585  INFO 2400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 03:16:21.856  WARN 2400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-05 03:16:22.656  INFO 2400 --- [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-09-05 03:16:23.051  WARN 2400 --- [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-05 03:16:23.079  INFO 2400 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-09-05 03:16:23.184  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-09-05 03:16:23.192  INFO 2400 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:16:23.226  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-09-05 03:16:23.227  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-09-05 03:16:23.227  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-09-05 03:16:23.227  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-09-05 03:16:23.228  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-09-05 03:16:23.228  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-09-05 03:16:23.228  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-09-05 03:16:23.778  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-09-05 03:16:23.783  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-09-05 03:16:23.788  INFO 2400 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-05 03:16:23.794  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1662318983793 with initial instances count: 2
+2022-09-05 03:16:23.798  INFO 2400 --- [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ADDRESS-SERVICE with eureka with status UP
+2022-09-05 03:16:23.799  INFO 2400 --- [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662318983799, current=UP, previous=STARTING]
+2022-09-05 03:16:23.802  INFO 2400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 03:16:23.952  INFO 2400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-09-05 03:16:23.956  INFO 2400 --- [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2022-09-05 03:16:24.130  INFO 2400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 03:16:24.349  INFO 2400 --- [main] c.g.address.api.AddressApplication       : Started AddressApplication in 10.251 seconds (JVM running for 11.171)
+2022-09-05 03:17:00.254  INFO 2400 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-05 03:17:00.255  INFO 2400 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-09-05 03:17:00.256  INFO 2400 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-09-05 03:21:23.243  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:26:23.258  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:31:23.266  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:36:23.274  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:41:23.288  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:46:23.297  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:51:23.306  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 03:56:23.314  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:01:23.323  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:06:23.337  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:11:23.346  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:16:23.351  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:21:23.358  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:27:21.741  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:32:21.751  INFO 2400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-09-05 04:34:03.015  INFO 2400 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ADDRESS-SERVICE with eureka with status DOWN
+2022-09-05 04:34:03.016  INFO 2400 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1662323643016, current=DOWN, previous=UP]
+2022-09-05 04:34:03.016  INFO 2400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081: registering service...
+2022-09-05 04:34:03.032  INFO 2400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - registration status: 204
+2022-09-05 04:34:03.214  INFO 2400 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-05 04:34:03.225  INFO 2400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-05 04:34:03.238  INFO 2400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-09-05 04:34:03.239  INFO 2400 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-09-05 04:34:06.249  INFO 2400 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-09-05 04:34:06.264  INFO 2400 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ADDRESS-SERVICE/host.docker.internal:address-service:8081 - deregister  status: 200
+2022-09-05 04:34:06.273  INFO 2400 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
