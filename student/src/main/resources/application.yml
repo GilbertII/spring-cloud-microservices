@@ -27,3 +27,33 @@ logging:
 address:
   service:
     url: http://localhost:8081/api/address
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      addressService:
+        # resilience props
+        slidingWindowSize: 10
+        failureRateThreshold: 50
+        waitDurationInOpenState: 30000
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        permittedNumberOfCallsInHalfOpenState: 5
+        # this two props works with actuator and resilience
+        allowHealthIndicatorToFail: true
+        registerHealthIndicator: true
+
+# actuator
+management:
+  health:
+    cassandra:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+
+# current states in the actuator
+# closeState = UP, openState = DOWN & haflOpenState = UNKNOWN

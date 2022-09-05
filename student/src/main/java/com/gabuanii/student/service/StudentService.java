@@ -6,6 +6,7 @@ import com.gabuanii.student.repository.StudentRepository;
 import com.gabuanii.student.request.CreateStudentRequest;
 import com.gabuanii.student.response.AddressResponse;
 import com.gabuanii.student.response.StudentResponse;
+import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -57,6 +58,7 @@ public class StudentService {
         return studentResponse;
     }
 
+    @CircuitBreaker(name = "addressService")
     public AddressResponse getAddress(long addressId) {
         return addressFeignClient
                 .getAddress(addressId)
