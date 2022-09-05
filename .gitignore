@@ -15,6 +15,7 @@ target/
 
 ### IntelliJ IDEA ###
 .idea
+student/.idea
 *.iws
 *.iml
 *.ipr
@@ -31,3 +32,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# exclude everything
+student/*
+
+# exception to the rule
+student/target/
+!student/.mvn/wrapper/maven-wrapper.jar
+!student/**/src/main/**/target/
+!student/**/src/test/**/target/
