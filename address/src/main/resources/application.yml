@@ -9,6 +9,8 @@ spring:
     database: mysql
     show-sql: true
     format_sql: true
+  zipkin:
+    base-url: http://127.0.0.1:9411
 server:
   port: 8081
 eureka:

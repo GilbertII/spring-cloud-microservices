@@ -10,6 +10,9 @@ spring:
     show-sql: true
     format_sql: true
 
+  zipkin:
+    base-url: http://127.0.0.1:9411
+
 server:
   port: 8083
 
@@ -28,24 +31,23 @@ address:
   service:
     url: http://localhost:8081/api/address
 
+
 resilience4j:
   circuitbreaker:
     instances:
       addressService:
-        # resilience props
         slidingWindowSize: 10
         failureRateThreshold: 50
         waitDurationInOpenState: 30000
         automaticTransitionFromOpenToHalfOpenEnabled: true
         permittedNumberOfCallsInHalfOpenState: 5
-        # this two props works with actuator and resilience
         allowHealthIndicatorToFail: true
         registerHealthIndicator: true
 
 # actuator
 management:
   health:
-    cassandra:
+    circuitbreakers:
       enabled: true
   endpoints:
     web:

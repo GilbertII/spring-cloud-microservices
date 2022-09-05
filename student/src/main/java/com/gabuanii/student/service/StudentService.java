@@ -1,28 +1,22 @@
 package com.gabuanii.student.service;
 
 import com.gabuanii.student.entity.Student;
-import com.gabuanii.student.feign.AddressFeignClient;
 import com.gabuanii.student.repository.StudentRepository;
 import com.gabuanii.student.request.CreateStudentRequest;
 import com.gabuanii.student.response.AddressResponse;
 import com.gabuanii.student.response.StudentResponse;
-import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
+@Slf4j
 @Service
 public class StudentService {
 
     @Autowired
     private StudentRepository studentRepository;
-
     @Autowired
-    private WebClient webClient;
-
-    @Autowired
-    private AddressFeignClient addressFeignClient;
+    private CommonService commonService;
 
     public StudentResponse createStudent(CreateStudentRequest studentRequest) {
 
@@ -35,7 +29,7 @@ public class StudentService {
 
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
-        AddressResponse addressResponse = getAddress(student.getAddressId());
+        AddressResponse addressResponse = commonService.getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -45,12 +39,14 @@ public class StudentService {
 
     public StudentResponse getById(long id) {
 
+        log.info("Inside StudenService getById {}",id);
+
         Student student = studentRepository.findById(id).get();
 
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
 
-        AddressResponse addressResponse = getAddress(student.getAddressId());
+        AddressResponse addressResponse = commonService.getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -58,10 +54,5 @@ public class StudentService {
         return studentResponse;
     }
 
-    @CircuitBreaker(name = "addressService")
-    public AddressResponse getAddress(long addressId) {
-        return addressFeignClient
-                .getAddress(addressId)
-                .getBody();
-    }
+
 }
