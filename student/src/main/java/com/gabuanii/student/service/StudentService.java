@@ -34,9 +34,7 @@ public class StudentService {
 
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
-        AddressResponse addressResponse = addressFeignClient
-                .getAddress(student.getAddressId())
-                .getBody();
+        AddressResponse addressResponse = getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -51,9 +49,7 @@ public class StudentService {
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
 
-        AddressResponse addressResponse = addressFeignClient
-                .getAddress(student.getAddressId())
-                .getBody();
+        AddressResponse addressResponse = getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -62,10 +58,8 @@ public class StudentService {
     }
 
     public AddressResponse getAddress(long addressId) {
-        Mono<AddressResponse> addressDtoMono = webClient.get()
-                .uri("/getAddress/" + addressId)
-                .retrieve()
-                .bodyToMono(AddressResponse.class);
-        return addressDtoMono.block();
+        return addressFeignClient
+                .getAddress(addressId)
+                .getBody();
     }
 }
