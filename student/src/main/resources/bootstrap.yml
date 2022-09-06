@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: student-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      profile: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+
+#use local if no eureka server
+#spring.cloud.config.url=http://localhost:8888
+
+
