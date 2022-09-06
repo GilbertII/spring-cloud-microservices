@@ -4,6 +4,21 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+student/target/
+!student/.mvn/wrapper/maven-wrapper.jar
+!student/**/src/main/**/target/
+!student/**/src/test/**/target/
+
+department/target/
+!department/.mvn/wrapper/maven-wrapper.jar
+!department/**/src/main/**/target/
+!department/**/src/test/**/target/
+
+address/target/
+!address/.mvn/wrapper/maven-wrapper.jar
+!address/**/src/main/**/target/
+!address/**/src/test/**/target/
+
 ### STS ###
 .apt_generated
 .classpath
@@ -13,12 +28,56 @@ target/
 .springBeans
 .sts4-cache
 
+student/.apt_generated
+student/.classpath
+student/.factorypath
+student/.project
+student/.settings
+student/.springBeans
+student/.sts4-cache
+
+address/.apt_generated
+address/.classpath
+address/.factorypath
+address/.project
+address/.settings
+address/.springBeans
+address/.sts4-cache
+
 ### IntelliJ IDEA ###
+.DS_Store
 .idea
-student/.idea
+.idea/libraries
 *.iws
 *.iml
 *.ipr
+*.log
+*.jar
+
+### student
+student/.idea
+student/*.iws
+student/*.iml
+student/*.ipr
+student/*.log
+student/*.jar
+
+### address
+address/.idea
+address/*.iws
+address/*.iml
+address/*.ipr
+address/*.log
+address/*.jar
+
+### department
+department/.idea
+department/*.iws
+department/*.iml
+department/*.ipr
+department/*.log
+department/*.jar
+
 
 ### NetBeans ###
 /nbproject/private/
@@ -32,12 +91,7 @@ build/
 
 ### VS Code ###
 .vscode/
-
-# exclude everything
-student/*
-
-# exception to the rule
-student/target/
-!student/.mvn/wrapper/maven-wrapper.jar
-!student/**/src/main/**/target/
-!student/**/src/test/**/target/
+/.idea/
+/address.log.2022-09-05.0.gz
+/student.log.2022-09-05.0.gz
+/.idea/libraries/
