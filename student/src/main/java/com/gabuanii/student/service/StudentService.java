@@ -1,27 +1,22 @@
 package com.gabuanii.student.service;
 
 import com.gabuanii.student.entity.Student;
-import com.gabuanii.student.feign.AddressFeignClient;
 import com.gabuanii.student.repository.StudentRepository;
 import com.gabuanii.student.request.CreateStudentRequest;
 import com.gabuanii.student.response.AddressResponse;
 import com.gabuanii.student.response.StudentResponse;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
+@Slf4j
 @Service
 public class StudentService {
 
     @Autowired
     private StudentRepository studentRepository;
-
     @Autowired
-    private WebClient webClient;
-
-    @Autowired
-    private AddressFeignClient addressFeignClient;
+    private CommonService commonService;
 
     public StudentResponse createStudent(CreateStudentRequest studentRequest) {
 
@@ -34,9 +29,7 @@ public class StudentService {
 
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
-        AddressResponse addressResponse = addressFeignClient
-                .getAddress(student.getAddressId())
-                .getBody();
+        AddressResponse addressResponse = commonService.getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -46,14 +39,14 @@ public class StudentService {
 
     public StudentResponse getById(long id) {
 
+        log.info("Inside StudenService getById {}",id);
+
         Student student = studentRepository.findById(id).get();
 
         // get address from address service
         // AddressResponse addressResponse = getAddress(student.getAddressId()); // using webClient
 
-        AddressResponse addressResponse = addressFeignClient
-                .getAddress(student.getAddressId())
-                .getBody();
+        AddressResponse addressResponse = commonService.getAddress(student.getAddressId());
 
         StudentResponse studentResponse = new StudentResponse(student);
         studentResponse.setAddressResponse(addressResponse);
@@ -61,11 +54,5 @@ public class StudentService {
         return studentResponse;
     }
 
-    public AddressResponse getAddress(long addressId) {
-        Mono<AddressResponse> addressDtoMono = webClient.get()
-                .uri("/getAddress/" + addressId)
-                .retrieve()
-                .bodyToMono(AddressResponse.class);
-        return addressDtoMono.block();
-    }
+
 }

@@ -11,9 +11,17 @@ eureka:
 spring:
   application:
     name: api-gateway
+
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
           lower-case-service-id: true
+
+  sleuth:
+    reactor:
+      instrumentationType: decorate-on-each
+
+  zipkin:
+    base-url: http://127.0.0.1:9411
